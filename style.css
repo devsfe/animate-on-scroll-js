@@ -58,7 +58,8 @@ section {
 /* === Animação === */
 [data-anime] {
     opacity: 0;    
-    transition: .3s;
+    transition: ease .3s;
+    transition-delay: 0.3s;
 }
 
 [data-anime="left"] {
